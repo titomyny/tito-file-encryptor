@@ -29,8 +29,9 @@ I build Windows software and other tech projects, with a focus on useful tools t
 ## Links
 
 - Website: https://titoware.com
-- LinkedIn: https://www.linkedin.com/in/tito-myny-372303390/
+- LinkedIn: https://www.linkedin.com/in/tito-myny/
 - Microsoft Store: https://apps.microsoft.com/detail/xpfg2dkdszhcln
+
 
 ---
 
