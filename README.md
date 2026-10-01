@@ -1,37 +1,39 @@
-# TITO Encryptor
+# TITO Encryptor 🔒💻 [Production Build]
 
-TITO Encryptor is a Windows app I built to make local file and folder encryption simple.
+A lightweight, high-performance Windows file and folder encryption application designed for absolute privacy. TITO Encryptor runs completely locally—requiring no user accounts, no internet connectivity, and zero cloud synchronization.
 
-The idea was straightforward: I wanted something that could protect personal files without uploading them to a cloud service or making the user deal with complicated tools.
+> 🚀 **Available Now:** Download the official release directly from the [Microsoft Store](https://microsoft.com).
 
-The app runs locally on Windows and uses authenticated AES-256-GCM encryption with password-based key derivation. It supports files and folders and creates TITO encrypted containers that can later be opened again with the correct password.
+## 🛡️ Security Architecture
 
-## Why I built it
+To ensure military-grade data protection, TITO Encryptor implements a secure, local-first cryptographic pipeline:
 
-This started as a personal project and turned into a proper Windows application.
+- **Authenticated Encryption:** Utilizes **AES-256-GCM** to guarantee both data confidentiality and integrity, preventing tampering with encrypted files.
+- **Key Derivation:** Employs **PBKDF2-SHA256** for robust, password-based key derivation, protecting against brute-force attacks.
+- **Custom File Format:** Introduces the dedicated `.tito` encrypted file extension for seamless file associations within the Windows ecosystem.
+- **Zero Cloud Footprint:** All cryptographic operations happen exclusively in user space on the local machine. Your keys and data never leave your device.
 
-I wanted the interface to stay simple: choose what you want to protect, enter a password, and encrypt it. No account is needed, and the files stay on your own device.
+## ✨ Core Features
 
-Getting TITO Encryptor published on the Microsoft Store was an important milestone for me, and I'm continuing to work on TITO Software and new projects.
+- **Windows Integration:** Register `.tito` file associations to encrypt and decrypt files directly from the OS environment.
+- **Folder & File Support:** Easily secure individual files or entire directory structures with consistent performance.
+- **Lightweight Design:** Built to run efficiently without bloating system memory or requiring complex background services.
+- **Production Ready:** Fully compiled, stable architecture currently distributed to end-users via Windows OS.
 
-## Project status
+## 🛠️ Tech Stack & Protocols
 
-TITO Encryptor is available for Windows through the Microsoft Store.
-
-I'm still improving the project and using what I learned from building and publishing it for future TITO Software projects.
-
-## About the developer
-
-I'm **Tito Myny**, founder and developer of **TITO Software**.
-
-I build Windows software and other tech projects, with a focus on useful tools that are simple to use.
-
-## Links
-
-- Website: https://titoware.com
-- LinkedIn: https://www.linkedin.com/in/tito-myny-372303390/
-- Microsoft Store: https://apps.microsoft.com/detail/xpfg2dkdszhcln
+- **Core Technologies:** Windows Desktop Integration, File System I/O Pipeline.
+- **Cryptographic Standards:** AES-256-GCM, PBKDF2-SHA256.
+- **Distribution:** Microsoft Store Partner Program.
 
 ---
 
-Built by Tito Myny · TITO Software
+## 🔗 Author & Official Channels
+
+Developed by **Tito Myny**, an independent software developer based in Ghent, Belgium.
+
+- **Main GitHub Profile:** [://github.com](https://github.com/titomyny/)
+- **Official LinkedIn:** [://linkedin.com](www.linkedin.com/in/tito-myny)
+- **Official X:** [@Tito_myny](https://x.com/Tito_myny)
+
+*Security Notice: This is the official open-source documentation/repository for the TITO Encryptor core utility. Unofficial third-party builds or media channels using the name Tito Myny are not affiliated with this project.*
