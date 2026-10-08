@@ -1,0 +1,16 @@
+What's new in v3
+
+🗂️ Supported-files overview with live search across all 43 formats
+🕰️ Legacy support — old .tito files open, preview and convert to the new format
+🌍 16 languages, light/dark/system themes, fluent Windows 11 styling
+⚡ Streaming encryption for huge files, with live speed and time estimates
+🖱️ Right-click any file → encrypt with a password prompt, green-check confirmation
+📁 Full Windows Explorer integration: icons, double-click, context menu
+Security, seriously AES-256-GCM authenticated encryption, Argon2id key derivation, streaming verification, tamper detection — and wrong passwords never reveal a single byte.
+
+System requirements: Windows 10/11 (64-bit) · ~160 MB disk space · No internet required after install.
+
+Free. Local-first. © 2026 Titoware.
+
+
+Download at: https://pub-c9592ae540dc4bbe995d738d2db77b62.r2.dev/TITO-Encryptor-V3-installer.exe
